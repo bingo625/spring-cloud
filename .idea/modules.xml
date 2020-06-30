@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../springcloud/config-client/config-client.iml" filepath="$PROJECT_DIR$/../springcloud/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud/config-server/config-server.iml" filepath="$PROJECT_DIR$/../springcloud/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../springcloud/consummer1/consummer1.iml" filepath="$PROJECT_DIR$/../springcloud/consummer1/consummer1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consummer1/consummer1.iml" filepath="$PROJECT_DIR$/consummer1/consummer1.iml" />
       <module fileurl="file://$PROJECT_DIR$/dashboard/dashboard.iml" filepath="$PROJECT_DIR$/dashboard/dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/producer.iml" filepath="$PROJECT_DIR$/demo/producer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../springcloud/turbin/turbin.iml" filepath="$PROJECT_DIR$/../springcloud/turbin/turbin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbin/turbin.iml" filepath="$PROJECT_DIR$/turbin/turbin.iml" />
     </modules>
   </component>
 </project>

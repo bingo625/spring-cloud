@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="configclient" />
         <module name="consumer" />
         <module name="consummer1" />
         <module name="dashboard" />
@@ -15,10 +18,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="configclient" target="1.5" />
       <module name="consumer" target="1.8" />
       <module name="consummer1" target="1.8" />
       <module name="dashboard" target="1.8" />
       <module name="eureka" target="1.8" />
+      <module name="git-config" target="1.8" />
+      <module name="gitconfig" target="1.8" />
       <module name="producer" target="1.8" />
       <module name="turbin" target="1.8" />
     </bytecodeTargetLevel>

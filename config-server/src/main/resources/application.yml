@@ -1,0 +1,17 @@
+server:
+  port: 8012
+
+spring:
+    application:
+        name: config-server
+    cloud:
+        config:
+              label: master
+              server:
+                    git:
+                        skipSslValidation:  true
+                        uri: https://github.com/bingo625/spring-cloud.git
+                        searchPaths: config-repo
+                        username:
+                        password:
+

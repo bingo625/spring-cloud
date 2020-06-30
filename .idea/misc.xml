@@ -7,8 +7,11 @@
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/consumer/pom.xml" />
         <option value="$PROJECT_DIR$/dashboard/pom.xml" />
-        <option value="$PROJECT_DIR$/../springcloud/consummer1/pom.xml" />
-        <option value="$PROJECT_DIR$/../springcloud/turbin/pom.xml" />
+        <option value="$PROJECT_DIR$/consummer1/pom.xml" />
+        <option value="$PROJECT_DIR$/turbin/pom.xml" />
+        <option value="$PROJECT_DIR$/gitconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/config-client/pom.xml" />
       </list>
     </option>
   </component>
