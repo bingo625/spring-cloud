@@ -3,7 +3,7 @@ server:
 
 spring:
     application:
-        name: config-server
+        name: config-service
     cloud:
         config:
               label: master
@@ -14,7 +14,9 @@ spring:
                         searchPaths: config-repo
                         username:
                         password:
+    profiles:
+            active: -dev
 eureka:
     client:
       serviceUrl:
-          defaultZone: http://localhost:8000/eureka/
+          defaultZone: http://peer1:8000/eureka/
